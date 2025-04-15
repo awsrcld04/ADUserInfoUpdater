@@ -95,8 +95,6 @@ namespace ADUserInfoUpdater
                     {
                         funcToEventLog("ADUserInfoUpdater", "ADUserInfoUpdater started.", 1001);
 
-                        funcProgramRegistryTag("ADUserInfoUpdater");
-
                         bool bOUSectionFlag = false;
 
                         OUSections newOUSections = new OUSections();
